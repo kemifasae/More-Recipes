@@ -5,10 +5,13 @@ body{
 div.addrecipe{
   width: 700px;
   margin: 0 auto;
-  background-color:#f2f2f2;
-  padding: 0 20px 20px 20px;
-  border: 1px solid black;
+  
+  margin-bottom: 30px;
+  border: 1px solid black;	
 
+}
+.wholeprofile{
+	margin-top: 100px;
 }
 .navbar.navbar-expand-lg.navbar-dark.bg-dark{
 	position: fixed;
@@ -26,16 +29,15 @@ body.viewRecipe{
   border: 1px solid black;
 
 }
+#persona{
+	border: 2px solid;
+}
 .img-responsive.imgcent{
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
 }
-img.mainImage{
-	display: block;
-	margin-right: auto; 
-	margin-left: auto;
-}
+
 #signNames{
 	color:white;
 }
@@ -52,14 +54,12 @@ table.signs{
 	opacity: 0.8;
 }
 
-
-.addRecipe.addnew{
-	border : 2px solid #fff;
-  	padding : 10px;
-  	background-color: transparent;
-  	display: block;
-  	margin: 0 auto;	
+img.mainImage{
+	display: block;
+	margin-right: auto; 
+	margin-left: auto;
 }
+
 form{
   border : 2px solid #fff;
   padding : 10px;
@@ -82,7 +82,10 @@ input.suby{
 .btnpry{
 	padding-top: 10px;
 }
-
+.favorited{
+	margin-top: 100px;
+	border: 2px solid black;
+}
 #footer{
 	background-color:black;
 	height:50px; width:100%; 
